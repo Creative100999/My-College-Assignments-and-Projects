@@ -1,0 +1,15 @@
+# --- My First Multi-Line GitHub Project ---
+
+# 1. Take user input
+user_name = input("Enter your name: ")
+print(f"\nWelcome to my repository, {user_name}! 👋")
+
+# 2. Using an Array (List) to show what I'm learning
+learning_list = ["Python", "HTML", "MySQL", "C Programming"]
+
+print("\nHere are the technologies I am currently tracking on GitHub:")
+for index, technology in enumerate(learning_list, 1):
+    print(f" {index}. {technology}")
+
+# 3. Simple logic check
+print("\nStatus: Setup complete. Ready to build major projects! 🚀")
